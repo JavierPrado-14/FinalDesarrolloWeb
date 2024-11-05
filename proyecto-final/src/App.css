@@ -1,0 +1,140 @@
+/* Estilos principales */
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #f7f9fc;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.App-header {
+  background-color: #1e1e2f;
+  color: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 600px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: #4a90e2;
+  margin-bottom: 20px;
+}
+
+/* Formulario de inicio de sesión y registro */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  margin-top: 20px;
+}
+
+label {
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+input:focus {
+  border-color: #4a90e2;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"] {
+  background-color: #4a90e2;
+  color: #fff;
+}
+
+button[type="submit"]:hover {
+  background-color: #357abd;
+}
+
+button[type="button"] {
+  background-color: #fff;
+  color: #4a90e2;
+  border: 1px solid #4a90e2;
+}
+
+button[type="button"]:hover {
+  background-color: #4a90e2;
+  color: #fff;
+}
+
+/* Mensajes de error */
+.error-message {
+  color: #d9534f;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+}
+
+/* Contenedor del CRUD */
+.crud-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 600px;
+  margin-top: 20px;
+}
+
+.crud-container h3 {
+  font-size: 1.6rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.crud-item {
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.crud-item button {
+  background-color: #e74c3c;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.crud-item button:hover {
+  background-color: #c0392b;
+}
